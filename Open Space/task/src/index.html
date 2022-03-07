@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <script async src="PassWordHandler.js"></script>
+</head>
+
+<body >
+    <div class="space">
+        <div class="planet-area">
+            <img src="../Images/mars.png" alt="Mars like planet" class="planet" >
+            <img src="../Images/rocket.png" alt="White space-rocket" class="rocket" id="rocket">
+        </div> <!--End of planet area-->
+
+        <div class="control-panel" >
+
+            <div class="control-panel__inner" >
+                <input type="password" name="password" id="password-field">
+                <input type="button" value="OK" name="ok-button" id="ok-button">
+
+            <div class="check-buttons">
+                <input type="checkbox" class="single-check-button" onchange="checkLaunchButton()">
+                <input type="checkbox" class="single-check-button" onchange="checkLaunchButton()">
+                <input type="checkbox" class="single-check-button" onchange="checkLaunchButton()">
+                <input type="checkbox" class="single-check-button" onchange="checkLaunchButton()">
+                <input type="checkbox" class="single-check-button" onchange="checkLaunchButton()">
+                <input type="checkbox" class="single-check-button" onchange="checkLaunchButton()">
+
+            </div> <!--End of check-buttons-->
+
+            <div class="levers">
+                <input type="range" class="single-lever" onchange="checkLaunchButton()">
+                <input type="range" class="single-lever" onchange="checkLaunchButton()">
+                <input type="range" class="single-lever" onchange="checkLaunchButton()">
+                <input type="range" class="single-lever" onchange="checkLaunchButton()">
+                <input type="range" class="single-lever" onchange="checkLaunchButton()">
+            </div><!--End of levers-->
+
+            <input type="button" value="Launch" name="launch-button" id="launch-button">
+            </div> <!--End of inner control-->
+
+        </div> <!--End of control-panel-->
+
+
+    </div> <!--End of Space-->
+
+
+</body>
+
+</html>
